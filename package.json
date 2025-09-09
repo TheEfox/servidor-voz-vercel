@@ -1,0 +1,22 @@
+{
+  "name": "servidor-voz",
+  "version": "1.0.0",
+  "description": "Servidor de voz para la aplicación de Electron.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "keywords": [
+    "socket.io",
+    "voice-chat",
+    "electron"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^13.0.0"
+  }
+}
