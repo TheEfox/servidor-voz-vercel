@@ -2,9 +2,9 @@
   "name": "servidor-voz",
   "version": "1.0.0",
   "description": "Servidor de voz para la aplicación de Electron.",
-  "main": "api/main.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "node server.js"
   },
   "keywords": [
     "socket.io",
